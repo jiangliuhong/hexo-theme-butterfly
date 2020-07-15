@@ -12,6 +12,8 @@ block content
         include includes/comments/index.pug
   else if page.type === 'link'
     include flink.pug
+  else if page.type === 'my'
+    include my.pug
   else if page.type === 'categories'    
     .category-content
       .category-lists
